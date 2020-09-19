@@ -1,0 +1,143 @@
+body {
+  background-color: #0000000A;
+}
+
+/* carousel starts */
+.carousel-item {
+  height: 500px;
+}
+
+.carousel-item img {
+  height: 500px;
+}
+/* carousel ends */
+
+/* card hover starts */
+.card1 {
+  border-radius: 4px;
+  background: rgb(255, 255, 255);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
+  transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+  padding: 14px 80px 18px 36px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.card1:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+}
+/* card hover ends */
+
+/* footer style starts */
+section {
+  padding: 60px 0;
+}
+
+section .section-title {
+  text-align: center;
+  color: #343a40;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+
+#footer {
+  background: #343a40 !important;
+}
+
+#footer h4 {
+  padding-left: 10px;
+  border-left: 3px solid #eeeeee;
+  padding-bottom: 6px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+p1 {
+  color: white;
+  opacity: 0.5;
+}
+
+p2 {
+  opacity: 0.5;
+}
+
+#footer a {
+  color: #ffffff;
+  text-decoration: none !important;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+#footer ul.social li {
+  padding: 3px 0;
+}
+
+#footer ul.social li a i {
+  margin-right: 5px;
+  font-size: 25px;
+  -webkit-transition: .5s all ease;
+  -moz-transition: .5s all ease;
+  transition: .5s all ease;
+}
+
+#footer ul.social li:hover a i {
+  font-size: 30px;
+  margin-top: -10px;
+}
+
+#footer ul.social li a,
+#footer ul.quick-links li a {
+  color: #ffffff;
+}
+
+#footer ul.social li a:hover {
+  color: #eeeeee;
+}
+
+#footer ul.quick-links li {
+  padding: 3px 0;
+  -webkit-transition: .5s all ease;
+  -moz-transition: .5s all ease;
+  transition: .5s all ease;
+}
+
+#footer ul.quick-links li:hover {
+  padding: 3px 0;
+  margin-left: 5px;
+  font-weight: 700;
+}
+
+#footer ul.quick-links li a i {
+  margin-right: 5px;
+}
+
+#footer ul.quick-links li:hover a i {
+  font-weight: 700;
+}
+
+@media (max-width:767px) {
+  #footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+  }
+}
+
+.items li {
+  display: block;
+  list-style: none;
+  margin: 0;
+  font-size: 16px;
+  padding: 8px 10px;
+}
+/* footer style ends */
+
+td {
+  text-align: center;
+}
+
+.navbar-dark .nav-item > .nav-link.active  {
+  color:white;
+}
